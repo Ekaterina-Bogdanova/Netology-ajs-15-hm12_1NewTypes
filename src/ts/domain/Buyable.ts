@@ -7,4 +7,5 @@ export default interface Buyable {
   readonly country: string,
   readonly genre: string[],
   readonly time: string,
+  readonly price: number,
 }
